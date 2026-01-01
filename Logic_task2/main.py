@@ -28,6 +28,15 @@ def window(log, pattern):
             left+=1
     return result
 
+log = "ADOBECODEBANC"
+pattern = "ABC"
+print("Output of 1:")
+print(window(log, pattern))
+log = "a"
+pattern = "a"
+print("Output of 2:")
+print(window(log, pattern)) 
 log = "a"
 pattern = "aa"
+print("Output of 3:")
 print(window(log, pattern))  

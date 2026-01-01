@@ -20,6 +20,13 @@ def balanced_performance(scoreA, scoreB):
         return (prev+curr)/2
     else:
         return float(curr)
+    
+
+scoresA = [1, 3]
+scoresB = [2]
+print("Output of 1:")
+print(balanced_performance(scoresA, scoresB))
 scoresA = [1, 2]
 scoresB = [3,4]
+print("Output of 2:")
 print(balanced_performance(scoresA, scoresB))

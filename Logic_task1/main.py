@@ -10,6 +10,7 @@ def contribution(list_):
         impact[j]*=pos_product
         pos_product*=list_[j]
     return impact
-
+print("Output 1:")
 print(contribution([1, 2, 3, 4])) 
-
+print("Output 2:")
+print(contribution([-1,1, 0, -3, 3]))

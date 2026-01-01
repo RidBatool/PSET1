@@ -42,9 +42,18 @@ def invalidParantheseisremoval(s):
     return new_result
 
 
-# s = "()())()"
-#s="(a)())()"
-#s="()"
-# s="abc"
+s = "()())()"
+print("Output of 1:")
+print(invalidParantheseisremoval(s))
+s="(a)())()"
+print("Output of 1:")
+print(invalidParantheseisremoval(s))
+s="()"
+print("Output of 2:")
+print(invalidParantheseisremoval(s))
+s="abc"
+print("Output of 3:")
+print(invalidParantheseisremoval(s))
 s="((("
+print("Output of 4:")
 print(invalidParantheseisremoval(s))

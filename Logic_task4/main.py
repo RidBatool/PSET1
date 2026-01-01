@@ -24,3 +24,8 @@ def kthSmallest(matrix, k):
             high = mid
 
     return low
+
+matrix = [[1, 5, 9], [10, 11, 13], [12, 13, 15]]
+k = 8
+print("Output of 1:")
+print(kthSmallest(matrix, k))

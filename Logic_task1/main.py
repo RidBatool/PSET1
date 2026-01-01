@@ -11,5 +11,5 @@ def contribution(list_):
         pos_product*=list_[j]
     return impact
 
-print(contribution([-1,1,0,-3,3]))  # Output: [24, 12, 8, 6]
+print(contribution([1, 2, 3, 4])) 
 
